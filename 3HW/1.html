@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <style>
+        .body {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body class="body">
+<form method="post">
+    <fieldset>
+        <div>
+            <label>Имя:
+                <input type="text" required placeholder="Введите логин" minlength="6"></label>
+        </div>
+        <div>
+            <label>Фамилия:
+                <input type="email" required placeholder="Example@example.com"></label>
+        </div>
+        <div>
+            <lable>Пол:</lable>
+            <input name="gander" type="radio">Муж
+            <input name="gander" type="radio">Жен
+        </div>
+        <div>
+
+            <label>Дата рождения</label>
+            <input type="date">
+        </div>
+        <div>
+            <lable>Мобильный телефон</lable>
+            <input type="number" placeholder="9xxxxxxxxx" maxlength="10" required>
+        </div>
+        <div>
+            <lable>Выбирете страну проживания</lable>
+            <select>
+                <option>Россия</option>
+                <option>Китай</option>
+                <option>Сингапур</option>
+                <option>Чехия</option>
+                <option>Польша</option>
+                <option>Канада</option>
+            </select>
+        </div>
+        <div>
+            <label>Комментарии</label>
+            <textarea cols="20" rows="10" placeholder="Введите коментарий"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Подтвердить</button>
+        </div>
+
+    </fieldset>
+</form>
+</body>
+</html>
