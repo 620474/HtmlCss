@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+[class*=col-] {
+    background-color: red;
+}
+
+.row, [class*=col-] {
+    padding: 2px;
+    border: 1px solid black;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.slider {
+    list-style-type: none;
+    position: relative;
+
+}
+
+.text {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+li {
+    display: inline-block;
+}
