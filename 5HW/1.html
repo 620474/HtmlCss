@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        font-family: "syne mono", monospace;
+    }
+
+    .next {
+        display: none;
+    }
+    li {
+        display: inline;
+    }
+    li:hover > .next {
+        display: block;
+    }
+
+
+</style>
+<body>
+<ul>
+    <li>1 line</li>
+    <li>2 line</li>
+    <li>3 line
+        <ul class="next">
+            <li>3.1 line</li>
+            <li>3.2 line</li>
+            <li>3.3 line</li>
+        </ul>
+    </li>
+    <li>4 line</li>
+</ul>
+</body>
+</html>
