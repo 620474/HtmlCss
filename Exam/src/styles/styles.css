@@ -156,7 +156,7 @@ img.right {
 }
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 100px) and (max-width: 768px) {
     .sidebar2 {
         float: none;
         width: auto;
