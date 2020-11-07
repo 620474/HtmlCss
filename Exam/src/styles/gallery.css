@@ -1,0 +1,34 @@
+
+img {
+    max-width: 100%;
+}
+#grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    border: 4px double green;
+}
+#grid > div {
+    font-size: 5vw;
+    padding: .5em;
+    text-align: center;
+    border: 4px solid green;
+}
+header {
+    background: rgb(255, 214, 94);
+    background: linear-gradient(to bottom, rgb(154, 205, 50), rgb(0, 0, 0));
+
+}
+
+footer {
+    margin-top: 15px;
+    font-size: .8em;
+    padding: 10px 10px 30px 10px;
+    background: linear-gradient(to top, rgb(154, 205, 50), rgb(0, 0, 0));
+    color: rgb(204, 204, 204);
+}
+
+footer p {
+    color: white;
+}

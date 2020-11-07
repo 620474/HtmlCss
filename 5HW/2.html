@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>2</title>
     <style>
-
-        #form {
-            display: none;
+        body {
+            height: 100%;
         }
 
-        #form:target {
-            display: block;
+        #banner {
+            display: none;
+            max-width: 100%;
+            width: 30%;
             position: fixed;
-            top: 50px;
-            left: 100px;
-            bottom: 150px;
-            right: 100px;
+            left: 50%;
             text-align: center;
+            transform: translate(-50%, 0);
+            z-index: 9999;
+        }
+
+        #banner:target {
+            display: block;
         }
 
         #desc {
             position: fixed;
-            top: 50px;
+            top: 10px;
             left: 631px;
             bottom: 150px;
             right: 200px;
@@ -29,8 +32,18 @@
     </style>
 </head>
 <body>
+<div id="banner" style="width: 100%; height: 100%; position: fixed; z-index: 1; background: rgba(0,0,0,0.3);">
+    <div id="form">
+        <img src="./src/cat.jpg" height="520" width="461">
+        <div id="desc">
+            <a href="#">
+                <img src="./src/X.png" height="30px" width="50px">
+            </a>
+        </div>
+    </div>
+</div>
 <div>
-    <form action="#form">
+    <form action="#banner">
         <button>Посмотреть котика</button>
     </form>
     <div>
@@ -65,14 +78,6 @@
             Таким образом, выбранный нами инновационный путь представляет собой интересный эксперимент проверки системы
             обучения...
         </p>
-    </div>
-</div>
-<div id="form">
-    <img src="./src/cat.jpg" height="520" width="461">
-    <div id="desc">
-        <a href="#">
-            <img src="./src/X.png" height="30px" width="50px">
-        </a>
     </div>
 </div>
 

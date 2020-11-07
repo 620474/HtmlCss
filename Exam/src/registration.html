@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<title>Example</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Кактусы</title>
+    <link href="./styles/nav.css" rel="stylesheet">
+    <link href="./styles/gallery.css" rel="stylesheet">
+    <link href="./styles/styles.css" rel="stylesheet">
+    <link href="./styles/register.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<header>
+    <img src="../src/img/kak.png" class="logo" alt="logo">
+    <h1>Регистрация</h1>
+    <nav class="clear">
+        <ul>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./registration.html">Регистрация</a></li>
+            <li><a href="./Gallery.html">Галерея</a></li>
+        </ul>
+    </nav>
+
+</header>
+<body>
+<div id="grid">
+    <form method="post">
+        <fieldset class="registration" style="border: none;">
+            <div>
+                <label>Имя:
+                    <input type="text" required placeholder="Введите логин" minlength="6"></label>
+            </div>
+            <div>
+                <label>Фамилия:
+                    <input type="email" required placeholder="Example@example.com"></label>
+            </div>
+            <div>
+                <label>Пол:</label>
+                <input name="gander" type="radio">Муж
+                <input name="gander" type="radio">Жен
+            </div>
+            <div>
+
+                <label>Дата рождения</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Мобильный телефон</label>
+                <input type="number" placeholder="9xxxxxxxxx" max="10" required>
+            </div>
+            <div>
+                <label>Выбирете страну проживания</label>
+                <select>
+                    <option>Россия</option>
+                    <option>Китай</option>
+                    <option>Сингапур</option>
+                    <option>Чехия</option>
+                    <option>Польша</option>
+                    <option>Канада</option>
+                </select>
+            </div>
+            <div id="submit">
+                <button type="submit">Подтвердить</button>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+<footer>
+    <p>О кактусах</p>
+</footer>
+</body>
+</html>

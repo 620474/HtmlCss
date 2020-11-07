@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="240f0cea-dd34-4d81-a120-0cd5253e7fba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1juRrQxiCIMlTQ9iFY1ovj7WL0d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="240f0cea-dd34-4d81-a120-0cd5253e7fba" name="Default Changelist" comment="" />
+      <created>1604652188325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604652188325</updated>
+      <workItem from="1604652189374" duration="15508000" />
+      <workItem from="1604673651190" duration="869000" />
+      <workItem from="1604698541541" duration="6173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="331" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604669731628">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="690" y="331" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1170@0.0.1920.1170" timestamp="1604669731628" />
+    <state x="740" y="339" key="FileChooserDialogImpl" timestamp="1604669688706">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="740" y="339" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1604669688706" />
+    <state x="623" y="257" key="search.everywhere.popup" timestamp="1604663933525">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="623" y="257" key="search.everywhere.popup/0.0.1920.1170@0.0.1920.1170" timestamp="1604663933525" />
+  </component>
+</project>

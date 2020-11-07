@@ -1,0 +1,130 @@
+
+.clear:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+header {
+    background: rgb(255, 214, 94);
+    background: linear-gradient(to bottom, rgb(154, 205, 50), rgb(0, 0, 0));
+    padding-top: 10px;
+}
+
+.logo {
+    position: absolute;
+    z-index: 100;
+    right: 5px;
+}
+.cat img {
+    width: 100%;
+}
+
+
+.cat {
+    max-width: 100%;
+    width: 30%;
+    position: fixed;
+    top: 130px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 0);
+    z-index: 9999;
+
+}
+
+.desc2 {
+    
+    position: absolute;
+    width: 20px;
+    z-index: 10;
+    right: 10px;
+    top: 10px;
+
+}
+nav ul, header h1, footer p, .contentWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    clear: both;
+    padding-left: 10px;
+}
+
+nav {
+    background-color: rgb(25, 25, 25);
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-left: none;
+    border-right: none;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    float: left;
+    font-size: .8em;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 10px;
+    border-right: 1px dashed rgba(255, 255, 255, .75);
+    transition: all .5s;
+
+}
+
+nav li:last-of-type a {
+    border-right: none;
+}
+
+nav a:hover {
+    background-color: green;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+@-webkit-keyframes logo {
+    from {
+        -webkit-transform: rotate(0) scale(.5);
+        right: 120%;
+    }
+    50% {
+        -webkit-transform: rotate(-720deg) scale(.5);
+        right: 0;
+    }
+
+    to {
+        -webkit-transform: rotate(0) scale(1);
+    }
+}
+
+
+.logo {
+    -webkit-animation: logo 3s;
+    animation: logo 3s;
+    width: 89px;
+    height: 89px;
+}
+
+
